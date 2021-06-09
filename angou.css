@@ -1,0 +1,50 @@
+i {
+    color:rgb(197,63,63);
+}
+
+h1 {
+    border-bottom: 5px solid rgb(197,63,63);
+    font-size:50px;
+}
+
+*{
+    margin-left:5px;
+    font-size:120%;
+}
+
+img.illust{
+    width:500px;
+    display: inline-block;
+    float: right;
+}
+
+.button{
+    color:white;
+    font-weight:bold;
+    background-color:rgb(197,63,63);
+}
+
+body{
+    background-color:rgb(230,240,240);
+}
+
+@media (max-width:600px){
+    *{
+        font-size:100%;
+    }
+    
+    body{
+        text-align: center;
+    }
+
+    img.illust{
+        width:200px;
+        display: inline-block;
+        float:none;
+    }
+
+    h1 {
+        border-bottom: 5px solid rgb(197,63,63);
+        font-size:30px;
+    }
+}
